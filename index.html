@@ -28,7 +28,7 @@
 
 
     <header class="header" id="home">
-        <div class="container-max-width">
+        <div class="container-max-width container-wrapper">
             <div class="wrapper-img-logo sm-hide md-show">
                 <img src="imagens/nonas-logo.png"
                     alt="Logo do restaurante italiana Nonna's Kitchen, com uma senhora feliz segurando uma colher de madeira e em torno dela letras da logo Nonna's Kitchen">
@@ -62,10 +62,10 @@
             </div>
             <div class="cardap-title container-max-width">
                 <article class="card">
-                    <picture class="pics-cardape md-3">
+                    <picture class="pics-cardape md-3 lg-6">
                         <img src="imagens/pratos/risoto.jpg" alt="risoto decorada de forma chique com folhas por cima">
                     </picture>
-                    <div class="content md-8">
+                    <div class="content md-8 lg-11">
                         <h3 class="h3">Risoto</h3>
                         <p class="cardape-text-wrapper">Composto primordialmente por arroz, fritado levemente com
                             cebolas (e outros legumes) na
@@ -77,11 +77,11 @@
                     </div>
                 </article>
                 <article class="card">
-                    <picture class="pics-cardape md-3">
+                    <picture class="pics-cardape md-3 lg-6">
                         <img src="imagens/pratos/lasanha.jpg"
                             alt="lasanha derretida, cremosa e massaricada. Em cima de um prato e com uma folha de decoração">
                     </picture>
-                    <div class="content md-8">
+                    <div class="content md-8 lg-11">
                         <h3 class="h3">Lasanha</h3>
                         <p class="cardape-text-wrapper">Camadas alternadas de massa, queijo e molho de carne!</p>
                         <div class="button__content">
@@ -91,10 +91,10 @@
                     </div>
                 </article>
                 <article class="card">
-                    <picture class="pics-cardape md-3">
+                    <picture class="pics-cardape md-3 lg-6">
                         <img src="imagens/pratos/bruschetaa.jpg" alt="Torrada recheada de legumes ">
                     </picture>
-                    <div class="content md-8">
+                    <div class="content md-8 lg-11">
                         <h3 class="h3">Bruschetta</h3>
                         <p class="cardape-text-wrapper">Composta por torrada, azeite, sal, pimenta e alho.</p>
                         <div class="button__content">
@@ -105,10 +105,10 @@
                 </article>
 
                 <article class="card">
-                    <picture class="pics-cardape md-3">
+                    <picture class="pics-cardape md-3 lg-6">
                         <img src="imagens/pratos/gnocchi.jpg" alt="Porções de batatas servidas com molho sugo ">
                     </picture>
-                    <div class="content md-8">
+                    <div class="content md-8 lg-11">
                         <h3 class="h3">Gnocchi</h3>
                         <p class="cardape-text-wrapper">Deliciosas batatas, servidas com molho sugo, bolonhesa ou
                             branco.</p>
@@ -125,7 +125,7 @@
             <div id="depoimento" class="container-max-width">
                 <h2 class="h2">Alguns Depoimentos <span class="textSpan">Você Encontra Aqui</span></h2>
             </div>
-            <section class="carrousel">
+            <section class="carrousel testemunials">
 
                 <div class="carrousel__wrapper">
                     <img src="imagens/depoimentos/dp1.png" alt="Gente">
@@ -139,23 +139,23 @@
         </section>
         <section class="news" id="news">
             <div class="container-max-width">
-                <h2 class="h2-news h2">Não perca as novidades Nonna's Kitchen. <span class="textMiddle">Promoções do
+                <h2 class="h2-news h2">Não perca as novidades Nonna's Kitchen. <span class="textSpan">Promoções do
                         dia,
                         novidades e
                         atualizações. Saiba tudo em primeira mão.</span></h2>
                 <div class="news-app">
                     <div class="container-app">
                         <div class="apps">
-                            <p class="sr-only apps--p">Escolha seu app <span>preferido!</span></p>
-                            <img src="icons/seta.png" alt="" class="news__seta">
+                            <p class="sm-sr-only apps--p">Escolha seu app <span>preferido!</span></p>
+                            <img src="icons/seta.png" alt="" class="sm-hide md-show">
                         </div>
                         <div class="apps">
                             <img src="icons/whatsapp.png" alt="">
-                            <p class="sr-only">WhatsApp</p>
+                            <p class="sm-sr-only">WhatsApp</p>
                         </div>
                         <div class="apps">
                             <img src="icons/telegram.png" alt="">
-                            <p class="sr-only">Telegram</p>
+                            <p class="sm-sr-only">Telegram</p>
                         </div>
                     </div>
                     <a href="#" class="btn btnMore">Saiba mais</a>
@@ -164,84 +164,88 @@
         </section>
         <section id="books" class="section--books">
             <div id="depoimento" class="container-max-width">
-                <h2 class="h2">Livros que amamos<span class="textSpan">Produtos de qualidade que podem ser adquiridos na
-                        Amazon</span></h2>
+                <div class="h2-content">
+                    <h2 class="h2">Livros que amamos<span class="textSpan">Produtos de qualidade que podem ser
+                            adquiridos na
+                            Amazon</span></h2>
+                </div>
             </div>
             <section class="carrousel">
                 <div class="others__books">
                     <div class="book__content">
                         <img src="imagens/livros/book1.jpg"
-                            alt="imagem de um livro de receitas da autora Mia Mangolini, com o tema, Enciclopédia da gastronomia italiana">
+                            alt="imagem de um livro de receitas da autora Mia Mangolini, com o tema, Enciclopédia da gastronomia italiana"
+                            class="img__books">
                         <div class="book__descri">
-                            <h3 class="h3">Enciclopédia da gastronomia italiana</h3>
-                            <p>por <strong>Mia Mangolini</strong></p>
-                            <p class="sr-only">Enciclopédia da gastronomia italiana é uma obra inteiramente ilustrada
-                                para todas as
-                                pessoas que desejam dominar técnicas da culinária e preparar as principais receitas da
-                                Itália. Nesta publicação do Senac São Paulo, você encontrará: - 250 receitas e técnicas
-                                explicadas passo a passo. - Técnicas essenciais para fazer massas frescas, polenta,
-                                risoto, grissinis e diferentes molhos. - Receitas da cozinha italiana que acrescentarão
-                                um toque italiano às refeições. - Receitas de importantes chefs italianos: Massimiliano
-                                Alajmo, Gaetano Alia, Massimo Bottura, Teresa Buongiorno, Flavio Costa, Accursio
-                                Craparo, Enrico Crippa, Alfonso Iaccarino, Roberto Petza, Valeria Piccini, Niko Romito,
-                                Nadia e Giovanni Santini. - QR Codes que dão acesso a vídeos que detalham ainda mais o
-                                processo de oito técnicas da culinária italiana.</p>
+                            <div class="descripition">
+                                <h3 class="h3">Enciclopédia da gastronomia italiana</h3>
+                                <p class="author">por <strong>Mia Mangolini</strong></p>
+                                <div class="sm-sr-only">
+                                    <p>Enciclopédia da gastronomia italiana é uma obra inteiramente
+                                        ilustrada
+                                        para todas as
+                                        pessoas que desejam dominar técnicas da culinária e preparar as principais
+                                        receitas
+                                        da
+                                        Itália. </p>
+                                    <p>Nesta publicação do Senac São Paulo, você encontrará: - 250 receitas
+                                        e
+                                        técnicas
+                                        explicadas passo a passo. - Técnicas essenciais para fazer massas frescas,
+                                        polenta,
+                                        risoto, grissinis e diferentes molhos. - Receitas da cozinha italiana que
+                                        acrescentarão
+                                        um toque italiano às refeições. - Receitas de importantes chefs italianos:
+                                        Massimiliano
+                                        Alajmo, Gaetano Alia, Massimo Bottura, Teresa Buongiorno, Flavio Costa, Accursio
+                                        Craparo, Enrico Crippa, Alfonso Iaccarino, Roberto Petza, Valeria Piccini, Niko
+                                        Romito,
+                                        Nadia e Giovanni Santini. - QR Codes que dão acesso a vídeos que detalham ainda
+                                        mais
+                                        o
+                                        processo de oito técnicas da culinária italiana.</p>
+                                </div>
+                            </div>
                             <a href="#" class="btn btnMore">Comprar agora</a>
                         </div>
                     </div>
                     <div class="book__content"><img src="imagens/livros/book2.jpg"
-                            alt="imagem de um livro da autora J. A. Dias Lopes com o tema Massa! Mangia che ti fa felice">
+                            alt="imagem de um livro da autora J. A. Dias Lopes com o tema Massa! Mangia che ti fa felice"
+                            class="img__books">
                         <div class="book__descri">
-                            <h3 class="h3">Massa! Mangia che ti fa felice</h3>
-                            <p>por <strong>J. A. Dias Lopes</strong></p>
-                            <div class="sr-only">
-                                <p> "Massa! Mangia Che Ti Fa Felice" fala da origem de 12 massas clássicas, com os
-                                    molhos correspondentes, além de ensinar os seus respectivos preparos.</p>
+                            <div class="descripition">
+                                <h3 class="h3">Massa! Mangia che ti fa felice</h3>
+                                <p>por <strong>J. A. Dias Lopes</strong></p>
+                                <div class="sm-sr-only">
+                                    <p> "Massa! Mangia Che Ti Fa Felice" fala da origem de 12 massas clássicas, com os
+                                        molhos correspondentes, além de ensinar os seus respectivos preparos.</p>
 
-                                <p>O livro conta que o spaghetti surgiu na China e que Marco Polo não foi seu introdutor
-                                    na Itália, mas os árabes; que uma das versões para a origem do spaghetti alla
-                                    puttanesca é ele ter surgido como afrodisíaco em um bordel de Nápoles; que o
-                                    spaghetti alla carbonara foi inventado no final da Segunda Guerra Mundial por um
-                                    cozinheiro romano, aproveitando as rações dos soldados americanos que invadiram a
-                                    capital da Itália e aí por diante.</p>
+                                    <p>O livro conta que o spaghetti surgiu na China e que Marco Polo não foi seu
+                                        introdutor
+                                        na Itália, mas os árabes; que uma das versões para a origem do spaghetti alla
+                                        puttanesca é ele ter surgido como afrodisíaco em um bordel de Nápoles; que o
+                                        spaghetti alla carbonara foi inventado no final da Segunda Guerra Mundial por um
+                                        cozinheiro romano, aproveitando as rações dos soldados americanos que invadiram
+                                        a
+                                        capital da Itália e aí por diante.</p>
 
-                                <p>As belas e saborosas fotos do livro são de Reinaldo Mandacaru e os pratos foram
-                                    preparados pelo Chef Marco Renzetti.
-                                </p>
+                                    <p>As belas e saborosas fotos do livro são de Reinaldo Mandacaru e os pratos foram
+                                        preparados pelo Chef Marco Renzetti.
+                                    </p>
+                                </div>
                             </div>
 
                             <a href="#" class="btn btnMore">Comprar agora</a>
                         </div>
                     </div>
-                    <div class="book__content"><img src="imagens/livros/book3.jpg"
-                            alt="Livro sobre culinaria do autor Jamie Oliver com o tema A Itália de Jamie">
-                        <div class="book__descri">
-                            <h3 class="h3">A Itália De Jamie</h3>
-                            <p>por <strong> Jamie Oliver</strong></p>
-                            <div class="sr-only">
-                                <p> "Massa! Mangia Che Ti Fa Felice" fala da origem de 12 massas clássicas, com os
-                                    molhos correspondentes, além de ensinar os seus respectivos preparos.</p>
 
-                                <p>O livro conta que o spaghetti surgiu na China e que Marco Polo não foi seu introdutor
-                                    na Itália, mas os árabes; que uma das versões para a origem do spaghetti alla
-                                    puttanesca é ele ter surgido como afrodisíaco em um bordel de Nápoles; que o
-                                    spaghetti alla carbonara foi inventado no final da Segunda Guerra Mundial por um
-                                    cozinheiro romano, aproveitando as rações dos soldados americanos que invadiram a
-                                    capital da Itália e aí por diante.</p>
-
-                                <p>As belas e saborosas fotos do livro são de Reinaldo Mandacaru e os pratos foram
-                                    preparados pelo Chef Marco Renzetti.
-                                </p>
-                            </div>
-
-                            <a href="#" class="btn btnMore">Comprar agora</a>
-                        </div>
-                    </div>
+                    
                 </div>
             </section>
         </section>
     </main>
     <footer class="footer">
+        <div class="container-max-width">
         <div class="div-footer">
             <div class="img-footer">
                 <img src="imagens/logo-footer.png" alt="logo Nonna's Kitchen">
@@ -253,6 +257,7 @@
                 <li><a href="#"><i class="fa-brands fa-tiktok"></i><span>Tiktok</span></a></li>
                 <li><a href="#"><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></a></li>
             </ul>
+        </div>
         </div>
     </footer>
 
