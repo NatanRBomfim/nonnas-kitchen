@@ -3,8 +3,6 @@ const menu = document.querySelector(".nav-menu");
 
 let menuOpen = false;
 
-closeMenu();
-
 function closeMenu() {
   btn.setAttribute("aria-expanded", menuOpen);
   menu.setAttribute("aria-hidden", !menuOpen);
