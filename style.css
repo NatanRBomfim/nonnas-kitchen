@@ -21,8 +21,7 @@ body {
     font-weight: 400;
     font-style: normal;
     background-image: linear-gradient(to top, #b1524447 2%, var(--color-background) 16%);
-    background-attachment: fixed, scroll;
-    background-position: 100dvh;
+    background-attachment: fixed;
 }
 
 * {
@@ -194,7 +193,7 @@ a {
 }
 
 .spanHero {
-   
+
     color: var(--color-background);
     text-transform: uppercase;
     text-shadow: 2px 2px var(--secound-color), -2px -2px var(--secound-color), -2px 2px var(--secound-color), 2px -2px var(--secound-color);
