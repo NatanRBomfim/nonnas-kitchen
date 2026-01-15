@@ -22,6 +22,7 @@ body {
     font-style: normal;
     background-image: linear-gradient(to top, #b1524447 2%, var(--color-background) 16%);
     background-attachment: fixed, scroll;
+    background-position: 100dvh;
 }
 
 * {
