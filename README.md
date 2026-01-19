@@ -1,3 +1,116 @@
+# 📌 About the project
+
+![HTML5](https://img.shields.io/badge/HTML5-Semântico-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Responsivo-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black)
+![Mobile First](https://img.shields.io/badge/Mobile-First-0A66C2)
+![Acessibilidade](https://img.shields.io/badge/Acessibilidade-ARIA-2E7D32)
+![Netlify](https://img.shields.io/badge/Deploy-Netlify-00C7B7?logo=netlify&logoColor=white)
+![GitHub](https://img.shields.io/badge/Versionamento-GitHub-181717?logo=github&logoColor=white)
+![Frontend](https://img.shields.io/badge/Front--end-Developer-0A66C2)
+![Responsive Design](https://img.shields.io/badge/Responsive-Design-4CAF50)
+
+## Us English
+
+Nonna’s Kitchen is a website developed for a fictional Italian restaurant, focusing on modern design, responsiveness, accessibility and good front-end development practices.
+The project was created with the aim of composing my portfolio as a Web Developer, demonstrating code organization,
+attention to user experience and HTML semantics.
+
+🔗 Demo: https://nonnas-kitchen.netlify.app
+
+# 🎯 Project Objectives
+
+- Create an attractive landing page for an Italian restaurant
+
+- Apply Mobile First concepts
+
+- Ensure responsiveness on different devices
+
+- Use semantic HTML and good accessibility practices
+
+- Structure a clear and scalable project for portfolio
+
+
+ # 🚀 Features
+
+- Responsive layout (desktop, tablet and mobile)
+
+- Functional navigation menu
+
+- Sections (Hero, About, Menu, Testimonials, Contact)
+
+- Structure prepared for basic SEO
+
+- Clean and modern design
+
+- Focus on accessibility and usability
+
+# 🛠️ Technologies Used
+
+- HTML5 (semantic)
+
+- CSS3
+
+- Flexbox
+
+- CSS variables
+
+- Media Queries
+
+- JavaScript (Vanilla JS)
+
+- Mobile First
+
+- Accessibility (ARIA, good practices)
+
+- Git & GitHub
+
+- Netlify (deploy)
+
+# How to run locally
+
+Use: git clone https://github.com/NatanRBomfim/nonnas-kitchen.git
+
+Then access the project folder: cd nonnas-kitchen
+
+Open the index.html file in the browser
+
+# 📸 Screenshots
+
+### 🖥️ Desktop
+
+![Home Desktop](./assets/imagens/desktop-home.png)
+
+![Home Desktop](./assets/imagens/desktop-testimonials.png)
+
+![Home Desktop](./assets/imagens/desktop-footer.png)
+
+### 📱 Mobile
+
+![Home Mobile](./assets/imagens/mobile-menu.png)
+
+![Home Mobile](./assets/imagens/mobile-food.png)
+
+# ♿ Accessibility
+
+- Use of semantic HTML tags
+
+- Structure designed for screen readers
+
+- Clear and intuitive navigation
+
+- Adequate color contrast
+
+# 👨‍💻 Author
+
+Developed by Natan Bomfim
+
+🔗 GitHub: https://github.com/NatanRBomfim
+
+💼 LinkedIn: https://www.linkedin.com/in/natanbomfim/
+
+---
+
 # 📌 Sobre o Projeto
 
 ![HTML5](https://img.shields.io/badge/HTML5-Semântico-E34F26?logo=html5&logoColor=white)
@@ -10,8 +123,7 @@
 ![Frontend](https://img.shields.io/badge/Front--end-Developer-0A66C2)
 ![Responsive Design](https://img.shields.io/badge/Responsive-Design-4CAF50)
 
-
-
+## BR Português
 Nonna’s Kitchen é um site desenvolvido para um restaurante italiano fictício, com foco em design moderno, responsividade, acessibilidade e boas práticas de desenvolvimento front-end.
 O projeto foi criado com o objetivo de compor meu portfólio como Desenvolvedor Web, demonstrando organização de código, atenção à experiência do usuário e semântica HTML.
 
