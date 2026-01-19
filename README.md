@@ -35,7 +35,7 @@ O projeto foi criado com o objetivo de compor meu portfólio como Desenvolvedor 
 
 - Menu de navegação funcional
 
-- Seções institucionais (Hero, Sobre, Cardápio, Depoimentos, Contato)
+- Seções (Hero, Sobre, Cardápio, Depoimentos, Contato)
 
 - Estrutura preparada para SEO básico
 
