@@ -791,7 +791,7 @@ a {
     }
 
     .hero {
-        background-image: url(imagens/food-hero1.png), url(imagens/food-hero2.png), url(imagens/food-hero3.png), url(imagens/food-hero4.png);
+        background-image: url(assets/imagens/food-hero1.png), url(assets/imagens/food-hero2.png), url(assets/imagens/food-hero3.png), url(assets/imagens/food-hero4.png);
         background-repeat: no-repeat;
         background-position: left 5% top, right 5% top, left -1% bottom 5%, right -1% bottom 5%;
         margin: 0;
