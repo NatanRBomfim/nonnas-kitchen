@@ -1,12 +1,12 @@
 # 📌 About the project
 
-![HTML5](https://img.shields.io/badge/HTML5-Semântico-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-Responsivo-1572B6?logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-Semantic-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Responsive-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black)
 ![Mobile First](https://img.shields.io/badge/Mobile-First-0A66C2)
-![Acessibilidade](https://img.shields.io/badge/Acessibilidade-ARIA-2E7D32)
+![Acessibilidade](https://img.shields.io/badge/Acessibility-ARIA-2E7D32)
 ![Netlify](https://img.shields.io/badge/Deploy-Netlify-00C7B7?logo=netlify&logoColor=white)
-![GitHub](https://img.shields.io/badge/Versionamento-GitHub-181717?logo=github&logoColor=white)
+![GitHub](https://img.shields.io/badge/Versioning-GitHub-181717?logo=github&logoColor=white)
 ![Frontend](https://img.shields.io/badge/Front--end-Developer-0A66C2)
 ![Responsive Design](https://img.shields.io/badge/Responsive-Design-4CAF50)
 
@@ -18,18 +18,7 @@ attention to user experience and HTML semantics.
 
 🔗 Demo: https://nonnas-kitchen.netlify.app
 
-# 🎯 Project Objectives
-
-- Create an attractive landing page for an Italian restaurant
-
-- Apply Mobile First concepts
-
-- Ensure responsiveness on different devices
-
-- Use semantic HTML and good accessibility practices
-
-- Structure a clear and scalable project for portfolio
-
+---
 
  # 🚀 Features
 
@@ -44,6 +33,8 @@ attention to user experience and HTML semantics.
 - Clean and modern design
 
 - Focus on accessibility and usability
+
+---
 
 # 🛠️ Technologies Used
 
@@ -67,13 +58,23 @@ attention to user experience and HTML semantics.
 
 - Netlify (deploy)
 
+---
+
 # How to run locally
 
-Use: git clone https://github.com/NatanRBomfim/nonnas-kitchen.git
+Use:
 
-Then access the project folder: cd nonnas-kitchen
+```bash
+git clone https://github.com/NatanRBomfim/nonnas-kitchen.git
+```
+Then access the project folder: 
+```bash
+cd nonnas-kitchen
+```
 
 Open the index.html file in the browser
+
+---
 
 # 📸 Screenshots
 
@@ -91,6 +92,8 @@ Open the index.html file in the browser
 
 ![Home Mobile](./assets/imagens/mobile-food.png)
 
+---
+
 # ♿ Accessibility
 
 - Use of semantic HTML tags
@@ -100,6 +103,29 @@ Open the index.html file in the browser
 - Clear and intuitive navigation
 
 - Adequate color contrast
+
+---
+
+## 📂 Folder Structure
+```text
+📦 nonnas-kitchen
+ ┣ 📂 assets
+ ┃  ┣ 📂 imagens
+ ┃     ┣ 📂 depoimentos
+ ┃     ┣ 📂 livros
+ ┃     ┗ 📂 pratos
+ ┃  ┗ 📂 icons
+ ┣ 📂 js
+ ┃  ┣ carousel.js
+ ┃  ┣ depoientos.js
+ ┃  ┣ menu.js
+ ┃  ┗ paralax.js
+ ┣ 📜 README.md
+ ┣ 📜 index.html
+ ┗ 📜 style.css
+```
+
+---
 
 # 👨‍💻 Author
 
@@ -129,18 +155,8 @@ O projeto foi criado com o objetivo de compor meu portfólio como Desenvolvedor 
 
 🔗 Demo: https://nonnas-kitchen.netlify.app
 
-# 🎯 Objetivos do Projeto
+---
 
-- Criar uma landing page atrativa para um restaurante italiano
-
-- Aplicar conceitos de Mobile First
-
-- Garantir responsividade em diferentes dispositivos
-
-- Utilizar HTML semântico e boas práticas de acessibilidade
-
-- Estruturar um projeto claro e escalável para portfólio
-  
 # 🚀 Funcionalidades
 
 - Layout responsivo (desktop, tablet e mobile)
@@ -154,6 +170,8 @@ O projeto foi criado com o objetivo de compor meu portfólio como Desenvolvedor 
 - Design limpo e moderno
 
 - Foco em acessibilidade e usabilidade
+
+---
 
 # 🛠️ Tecnologias Utilizadas
 
@@ -177,13 +195,24 @@ O projeto foi criado com o objetivo de compor meu portfólio como Desenvolvedor 
 
 - Netlify (deploy)
 
+---
+
 # Como rodar localmente
 
-Use: git clone https://github.com/NatanRBomfim/nonnas-kitchen.git
+Use: 
+```bash
+git clone https://github.com/NatanRBomfim/nonnas-kitchen.git
+```
 
-Depois acesse a pasta do projeto: cd nonnas-kitchen
+Depois acesse a pasta do projeto:
+
+```bash
+cd nonnas-kitchen
+````
 
 Abra o arquivo index.html no navegador
+
+---
 
 # 📸 Screenshots
 
@@ -201,6 +230,8 @@ Abra o arquivo index.html no navegador
 
 ![Home Mobile](./assets/imagens/mobile-food.png)
 
+---
+
 # ♿ Acessibilidade
 
 - Uso de tags HTML semânticas
@@ -210,6 +241,29 @@ Abra o arquivo index.html no navegador
 - Navegação clara e intuitiva
 
 - Contraste de cores adequado
+
+---
+## 📂 Estrutura de pastas
+
+```text
+📦 nonnas-kitchen
+ ┣ 📂 assets
+ ┃  ┣ 📂 imagens
+ ┃     ┣ 📂 depoimentos
+ ┃     ┣ 📂 livros
+ ┃     ┗ 📂 pratos
+ ┃  ┗ 📂 icons
+ ┣ 📂 js
+ ┃  ┣ carousel.js
+ ┃  ┣ depoientos.js
+ ┃  ┣ menu.js
+ ┃  ┗ paralax.js
+ ┣ 📜 README.md
+ ┣ 📜 index.html
+ ┗ 📜 style.css
+```
+
+---
 
 # 👨‍💻 Autor
 
