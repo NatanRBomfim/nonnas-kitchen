@@ -16,7 +16,7 @@ Nonna’s Kitchen is a website developed for a fictional Italian restaurant, foc
 The project was created with the aim of composing my portfolio as a Web Developer, demonstrating code organization,
 attention to user experience and HTML semantics.
 
-🔗 Demo: https://nonnas-kitchen.netlify.app
+🔗 Demo: https://natanrbomfim.github.io/nonnas-kitchen/
 
 ---
 
@@ -153,7 +153,7 @@ Developed by Natan Bomfim
 Nonna’s Kitchen é um site desenvolvido para um restaurante italiano fictício, com foco em design moderno, responsividade, acessibilidade e boas práticas de desenvolvimento front-end.
 O projeto foi criado com o objetivo de compor meu portfólio como Desenvolvedor Web, demonstrando organização de código, atenção à experiência do usuário e semântica HTML.
 
-🔗 Demo: https://nonnas-kitchen.netlify.app
+🔗 Demo: https://natanrbomfim.github.io/nonnas-kitchen/
 
 ---
 
